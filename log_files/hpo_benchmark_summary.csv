@@ -1,0 +1,4 @@
+Approach,Run ID,Total Wall-Clock Time (s),Iterations Completed,Total Primary Evals,Total GPU Evals (Actual),Total CPU Evals/Screens,Best Fitness Score,Time to Best Fitness (s),Throughput (Primary Evals/s),GPU Utilization (%),Avg CPU Worker Util (%),CPU Screens per GPU Eval (A3)
+StaticSplit_GPUx3,7c7346df,909.9,22,440,112,328,0.784,0.0,0.48,40.78,81.94,N/A
+DynamicPull_GPUmicrobatch,c6468262,945.9,19,380,260,120,0.7878,0.0,0.4,92.75,96.9,N/A
+MultiStage_CPUScreen_GPUFull,912a125b,914.21,28,336,336,672,0.785,0.0,0.37,99.84,2.43,2.0
